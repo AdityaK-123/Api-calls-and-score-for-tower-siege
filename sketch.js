@@ -241,12 +241,12 @@ async function gettime(){
   var Datetime = responeJson.currentDateTime
   var hour = Datetime.slice(11,13);
   console.log(hour);
-  if(hour>=06 && hour<=18){
-      Bgimg="Bg1.jpg";
+  if(hour>=6 && hour<=18){
+      Bgimg="Bg2.jpg";
   
   }
   else{
-      Bgimg="Bg2.jpg";
+      Bgimg="Bg1.jpg";
   }
   Bgimage=loadImage(Bgimg);
   }
